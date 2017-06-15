@@ -1,0 +1,166 @@
+$color_1: #262C33;
+$color_2: #9AA3B0;
+$color_3: #71767F;
+$color_4: #FFFFFF;
+$font_family_1: helvetica;
+$background_color_1: #F7F9FA;
+$background_color_2: #FFFFFF;
+$background_color_3: #10C37E;
+
+.login {
+  font-family: $font_family_1;
+  background-color: $background_color_1;
+  overflow:hidden;
+}
+
+.header {
+  text-align: center;
+  margin-top: 42px;
+}
+.header-image {
+  img {
+    height: 30px;
+    width: 106.39px;
+  }
+}
+.container {
+  margin-top: 87px;
+  h1 {
+    color: $color_1;
+    font-size: 22px;
+    line-height: 16px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  h2 {
+    color: $color_2;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+}
+.login-screen {
+  height: 344px;
+  width: 398px;
+  border-radius: 3px;
+  background-color: $background_color_2;
+  box-shadow: 0 4px 20px 0 rgba(38,44,51,0.04), 0 2px 4px 0 rgba(38,44,51,0.04);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.input {
+  color: $color_1;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 42px 42px 8px 42px;
+}
+input[type="text"] {
+  height: 44px;
+  width: 314px;
+  border: 1px solid #E1E5E8;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-family: Helvetica;
+  padding-left:4px;
+}
+.forgot {
+  float: right;
+  color: $color_3;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.squaredFour {
+  position: relative;
+  label {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #219AF5;
+    background: -webkit-linear-gradient(top, #219AF5 0%, #219AF5 40%, #219AF5 100%);
+    background: linear-gradient(to bottom, #219AF5 0%, #219AF5 40%, #219AF5 100%);
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    &:after {
+      content: '';
+      width: 8px;
+      height: 4px;
+      position: absolute;
+      top: 4px;
+      left: 3px;
+      border: 2px solid white;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    &:hover {
+      &::after {
+        opacity: 0.5;
+      }
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked {
+      &+label {
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.checkbox-text {
+  color: $color_3;
+  font-size: 14px;
+  line-height: 17px;
+}
+input:focus{
+  outline: none;
+}
+#submit-login {
+    width: 314px;
+    border-radius: 3px;
+    background-color: #10C37E;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    padding-top:14px;
+    padding-bottom:14px;
+    margin-top:20px;
+    cursor:pointer;
+  border:0;
+}
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 218px;
+}
+#sign-new {
+  background-color: $background_color_1;
+  height: 44px;
+  width: 398px;
+  border: 1px solid #C4CED3;
+  opacity: 0.5;
+  border-radius: 2px;
+  text-align: center;
+  color: $color_2;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+/* colophon.twig*/
+

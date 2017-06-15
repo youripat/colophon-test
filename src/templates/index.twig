@@ -1,0 +1,33 @@
+{% extends "layouts/base.twig" %}
+
+{% block title %}Home{% endblock %}
+{% block body_class %}login{% endblock %}
+{% block content %}
+<div class="header">
+    <img src="/img/colophon-logogray.svg"/>
+</div>
+
+<div class="container">
+    <h1>Good morning! Welcome back.</h1>
+    <h2>Sign into your account here</h2>
+    <div class="login-screen">
+        <form class="input">
+            <span class="input-text">Email</span>
+            <input type="text" name="email">
+            <span class="input-text">Password</span><span class="forgot">forgot password?</span>
+            <input type="text" name="password">
+            <div class="squaredFour">
+                <input type="checkbox" value="None" id="squaredFour" name="check" checked />
+                <label for="squaredFour"></label>&nbsp<span class="checkbox-text">Remember me</span>
+                <input value="Sign in" id="submit-login"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <input id="sign-new" type="submit" value="Don’t have an account yet? Sign up." id="submit2">
+</div>
+
+
+{% endblock %}

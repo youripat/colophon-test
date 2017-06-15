@@ -1,0 +1,27 @@
+@mixin mq( $point1, $type1, $point2: false, $type2: false) {
+	@if $point2 == false or $type2 == false {
+		@media ( #{$type1}-width: $point1 + px ) { @content }
+	} @else {
+		@media ( #{$type1}-width: $point1 + px ) and ( #{$type2}-width: $point2 + px ) { @content }
+	}
+};
+
+@mixin min( $point ) {
+	@include mq( $point, min ) { @content }
+};
+
+@mixin max( $point ) {
+	@include mq( $point, max ) { @content }
+};
+
+@mixin mam( $point1, $point2 ) {
+	@include mq( $point1, min, $point2, max ) { @content }
+};
+
+@mixin clearfix {
+	&:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+};

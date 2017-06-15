@@ -1,0 +1,147 @@
+{% extends "layouts/base.twig" %}
+
+{% block title %}blog{% endblock %}
+{% block body_class %}overview{% endblock %}
+
+
+<script type="text/javascript" src="main.js"></script>
+{% block content %}
+    <!--top header-->
+<div class="header-home">
+    <img class="colophon" src="/img/colophon-logo.svg"/>
+    <div class="header-right">
+        <img class="arrow-down" src="/img/arrow-down.png"/>
+        <img class="arrow-up" src="/img/arrow-up.png"/>
+        <img class="avatar" src="/img/pasfoto.png"/>
+        <img class="bel" src="/img/bel.png"/>
+    </div>
+
+</div>
+    <!--end top header-->
+<div class="container-home">
+    <div class="above-nav">
+         <h1>All Publications</h1>
+         <div class="submit-new">
+            <div id="submit-new">
+                New publication
+            </div>
+         </div>
+    </div>
+    <div class="nav1">
+        <div class="nav-left">
+            <div class="active-home-drafts">
+                <ul>
+                    <li id="drafts">Drafts</li>
+                    <li><span class="nav-img">6</span></li>
+                </ul>
+            </div>
+            <div class="active">
+                <ul>
+                    <li id="published">Published</li>
+                    <li><span class="nav-img">3</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><img class="list-home" src="/img/list1.png"/></li>
+                <li><img src="/img/grid.svg"/></li>
+                <li><div class="line"></div></li>
+                <li><img src="/img/magnifier.svg"/></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer-home-drafts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 brown">
+                <img src="http://watermusicamsterdam.nl/components/com_wmt_flow_slider/assets/images/images/2.jpg"/>
+                <div class="project-description brown">
+                    <p>Kunst- en cultuurbeleid: doelbereik en controle</p>
+                    <p class="opa">Edited 2 hours ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 black">
+                <img src="http://www.museum4all.eu/assets/components/phpthumbof/cache/FransHalsMuseum.ec9805a10876a4adbc6e82d94b3384c92251.jpg"/>
+                <div class="project-description black">
+                    <p>Kunst- en cultuurbeleid: doelbereik en controle</p>
+                    <p class="opa">Edited 2 hours ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 light-blue">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxQIWVaEkmN-jWocIsgzVZT5dITvR2ykpxzluHkXe-4L1OsHBX"/>
+                <div class="project-description light-blue">
+                    <p>Beheer van sporthallen en sportparken</p>
+                    <p class="opa">Edited 2 days ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 purple">
+                <img src="http://static0.persgroep.net/parool/image/91530f60-c45a-423b-b156-4864a6abaa04?width=664&height=374"/>
+                <div class="project-description purple">
+                    <p>Drukte en leefbaarheid in de stad</p>
+                    <p class="opa">Edited 2 days ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 green">
+                <img src="http://kasperschrijft.nl/wp-content/uploads/2015/06/Drukte.jpg"/>
+                <div class="project-description green">
+                    <p>Drukte en leefbaarheid in de stad</p>
+                    <p class="opa">Edited 2 days ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 blue">
+                <img src="http://goyvon.com/wp-content/uploads/2014/08/muurkunst.jpg"/>
+                <div class="project-description blue">
+                    <p>Kunst- en cultuurbeleid: doelbereik en controle</p>
+                    <p class="opa">Edited 2 days ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 rose">
+                <img src="https://cdn.theculturetrip.com/images/56-3932110-14404183829fd5aec2bbef42d381274a86c456fc64.jpg"/>
+                <div class="project-description rose">
+                    <p>Beheer van sporthallen en sportparken</p>
+                    <p class="opa">Edited 2 ays ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-home-published">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 brown">
+                <img src="https://cdn.theculturetrip.com/images/56-3932110-14404183829fd5aec2bbef42d381274a86c456fc64.jpg"/>
+                <div class="project-description brown">
+                    <p>Kunst- en cultuurbeleid: doelbereik en controle</p>
+                    <p class="opa">Edited 2 hours ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 black">
+                <img src="http://goyvon.com/wp-content/uploads/2014/08/muurkunst.jpg"/>
+                <div class="project-description black">
+                    <p>Kunst- en cultuurbeleid: doelbereik en controle</p>
+                    <p class="opa">Edited 2 hours ago</p>
+                </div>
+            </div>
+            <div class="col-sm-4 light-blue">
+                <img src="http://kasperschrijft.nl/wp-content/uploads/2015/06/Drukte.jpg"/>
+                <div class="project-description light-blue">
+                    <p>Beheer van sporthallen en sportparken</p>
+                    <p class="opa">Edited 2 days ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<ul id="fade-away" class="account-menu toggle">
+    <li><a href="#">Profiel bekijken</a></li>
+    <li><a href="#">Profiel bewerken</a></li>
+    <li id="border-top"><a href="#">Uitloggen</a></li>
+</ul>
+<div id="fade-away-1" class="arrow-up toggle">
+</div>
+<span id="account-menu-toggle" class="hide-2"></span>
+
+{% endblock %}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="23px" viewBox="0 0 118 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="3.49090909" cy="6.18032787" rx="3.49090909" ry="3.52349727"></ellipse>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-9" transform="translate(-20.000000, -19.000000)">
+            <g id="Group-2-Copy" transform="translate(20.000000, 17.000000)">
+                <text id="Colophon" font-family="Helvetica" font-size="20.8" font-weight="normal" letter-spacing="-0.433333333" fill="#D6D6D6">
+                    <tspan x="23.1272727" y="20">Colopho</tspan>
+                    <tspan x="97.5759706" y="20">n</tspan>
+                </text>
+                <text id="TM" font-family=".AppleSystemUIFont" font-size="3.12" font-weight="normal" letter-spacing="-0.0650000026" fill="#D6D6D6">
+                    <tspan x="112.763636" y="8.74379085">TM</tspan>
+                </text>
+                <path d="M4.98701299,7.24996097 L4.98701299,12.6295863 C4.98701299,16.2609124 7.90355805,19.2046838 11.5012987,19.2046838 L16.8311688,19.2046838 L16.8311688,7.24996097 L4.98701299,7.24996097 Z M2.61818182,4.85901639 L19.2,4.85901639 L19.2,21.5956284 L11.5012987,21.5956284 C6.59528872,21.5956284 2.61818182,17.5813946 2.61818182,12.6295863 L2.61818182,4.85901639 Z" id="Rectangle-11" fill="#D6D6D6" fill-rule="nonzero"></path>
+                <polygon id="Line" fill="#D6D6D6" fill-rule="nonzero" points="7.35584416 12.0318501 14.4623377 12.0318501 14.4623377 9.64090554 7.35584416 9.64090554"></polygon>
+                <polygon id="Line-Copy" fill="#D6D6D6" fill-rule="nonzero" points="9.13246753 16.8137393 14.4623377 16.8137393 14.4623377 14.4227947 9.13246753 14.4227947"></polygon>
+                <g id="Oval-3">
+                    <use fill="#D6D6D6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <ellipse stroke="#D6D6D6" stroke-width="2.25333333" cx="3.49090909" cy="6.18032787" rx="2.36424242" ry="2.3968306"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

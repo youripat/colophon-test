@@ -1,0 +1,25 @@
+$xs-max: 479;
+
+$sm-min: 480;
+$sm-max: 767;
+
+$md-min: 768;
+$md-max: 991;
+
+$bg-min: 992;
+$bg-max: 1199;
+
+$lg-min: 1200; 
+
+.container {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left:  15px;
+	padding-right: 15px;
+	@include clearfix;
+	
+	@include min($md-min) { width: 750px; }
+	@include min($bg-min) { width: 970px; }
+	@include min($lg-min) { width: 1180px; }
+}
