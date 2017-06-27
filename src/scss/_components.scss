@@ -1,0 +1,120 @@
+$color_1: #262C33;
+$color_2: #9AA3B0;
+$color_3: #71767F;
+$color_4: #FFFFFF;
+$font_family_1: helvetica;
+$background_color_1: #F7F9FA;
+$background_color_2: #FFFFFF;
+$background_color_3: #10C37E;
+
+.squaredFour {
+  position: relative;
+  cursor:pointer;
+  label {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #219AF5;
+    background: -webkit-linear-gradient(top, #219AF5 0%, #219AF5 40%, #219AF5 100%);
+    background: linear-gradient(to bottom, #219AF5 0%, #219AF5 40%, #219AF5 100%);
+    border-radius: 3px;
+    &:after {
+      content: '';
+      width: 8px;
+      height: 4px;
+      position: absolute;
+      top: 3px;
+      left: 3px;
+      border: 2px solid white;
+      border-top: none;
+      border-right: none;
+      background: transparent;
+      opacity: 0;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    &:hover {
+      &::after {
+        opacity: 0.5;
+      }
+    }
+  }
+  input[type=checkbox] {
+    visibility: hidden;
+    &:checked {
+      &+label {
+        &:after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+input[type="text"], input[type="password"] {
+  height: 44px;
+  width: 95%;
+  border: 1px solid #E1E5E8;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-family: Helvetica;
+  margin-right:4px;
+  padding-left:8px;
+  padding-right:8px;
+  &:focus{
+    outline:none;
+    border:1px solid $color_1;
+  }
+}
+input[type="submit"]{
+  width:100%;
+}
+input:focus{
+  outline:none;
+  border:1px solid $color_1;
+}
+.btn {
+  border-radius: 3px;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding-top:14px;
+  padding-bottom:14px;
+  margin-top:20px;
+  cursor:pointer;
+  border:0;
+  opacity:none;
+}
+.btn-green{
+  background-color: #10C37E;
+  color: #FFFFFF;
+  &:hover{
+    opacity:0.6 ;
+  }
+}
+.btn-grey {
+  background-color: $background_color_1;
+  width:100%;
+  border: 1px solid #C4CED3;
+  opacity: 0.5;
+  border-radius: 3px;
+  text-align: center;
+  color: $color_2;
+  font-size: 14px;
+  line-height: 17px;
+  cursor: pointer;
+  &:hover{
+    opacity:1;
+  }
+}
+.header-image {
+  img {
+    height: 30px;
+    width: 106.39px;
+  }
+}

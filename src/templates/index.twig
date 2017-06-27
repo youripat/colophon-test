@@ -11,23 +11,23 @@
     <h1>Good morning! Welcome back.</h1>
     <h2>Sign into your account here</h2>
     <div class="login-screen">
-        <form class="input">
-            <span class="input-text">Email</span>
+        <form>
+            <div class="input-label">Email</div>
             <input type="text" name="email">
-            <span class="input-text">Password</span><span class="forgot">forgot password?</span>
-            <input type="text" name="password">
-            <div class="squaredFour">
+            <div class="input-label">Password <span class="forgot">forgot password?</span></div>
+            <input type="password" name="password">
+            <label class="squaredFour">
                 <input type="checkbox" value="None" id="squaredFour" name="check" checked />
-                <label for="squaredFour"></label>&nbsp<span class="checkbox-text">Remember me</span>
-                <input value="Sign in" id="submit-login"/>
-            </div>
+                <label for="squaredFour"></label>&nbsp;<span class="checkbox-text">Remember me</span>
+            </label>
+            <input type="submit" value="Sign in" class="btn btn-green"/>
         </form>
+        <div class="footer">
+            <a class="btn btn-grey">Don’t have an account yet? Sign up.</a>
+        </div>
     </div>
 </div>
 
-<div class="footer">
-    <input id="sign-new" type="submit" value="Don’t have an account yet? Sign up." id="submit2">
-</div>
 
 
 {% endblock %}
